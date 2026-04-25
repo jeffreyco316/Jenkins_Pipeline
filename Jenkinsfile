@@ -35,7 +35,7 @@ pipeline{
         }
         stage('Deploy to Production'){
             steps{
-                echo 'Deploying the code to the {$PRODUCTION_ENVIRONMENT}'
+                echo 'Deploying code to the {$PRODUCTION_ENVIRONMENT}'
             }
         }
     }
